@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// ************to print the odd position***********
+// 1. var a="helloworld";
+// for(i=0;i<a.length;i++){
+//     if (i%3==0) {
+//         console.log(a[i]);
+//     }
+// }
+
+// or
+
+// var a="helloworld";
+// for(i=0;i<a.length;i++){
+//     if (i%3==0) {
+        // console.log(a[i]);
+//     }
+// }
+
+// *****************************************
+//2.  var a=prompt("enter email")
+// if (a.slice(-10)=="@gmail.com") {
+//     console.log("valid email");
+// }else{
+//     console.log("not valid");
+// }
+
+//. var x=prompt('enter the email')
+// if (x.indexOf("@")) {
+//     console.log("its valid");
+// }
+// else{
+//     console.log("ints not valid");
+// }
+
+// ******************************************
+//3. var a="@kvenu@we@12@12@";
+// b='';
+// for(i=0;i<a.length;i++){
+//     if (a[i]!=="@") {
+//         b+=a[i]
+//     }
+// }
+// console.log(b);
+// console.log(a.replace(/@/gi,""));-----------//using replace method
+// console.log(a.replaceAll("@",""));---------//using replaceAll method
+// console.log(a.split("@").join(""));---------// using split method
+
+// ***********************************************
+// var a="marvelstudio";
+// console.log(a.search("s"));----------//using search method
+
+// ********** to remove g letter in given number**********
+//4. var x="gangadharganga";
+// var y='';
+// for(i=0;i<x.length;i++){
+//     if (x[i]!=="g") {
+//         y+=x[i]
+//     }
+// }
+// console.log(y);
+
+// *****************
+//5. var x="kevnu ganga dhara 3";
+// var y="";
+// for(i=0;i<x.length;i++){
+//     if (x[i]!==" ") {
+//         y+=x[i]
+//     }
+// }
+// console.log(y);
+
+// var w="    v e n u     ";
+// var x="";
+// for(i=0;i<w.length;i++){
+//     if (w[i]!=" ") {
+//         x+=w[i]
+//     }
+// }
+// console.log(w.trimEnd());
+// console.log(w.trimStart());
+// console.log(x);
+
+var w=prompt("enter the number")
+if (w.charAt("0")==9||w.charAt("0")==8||w.charAt("0")==7) {
+    console.log("its valid number");
+}
+else{
+    console.log("its not valid number");
+}
+
+var w=prompt("enter number")
+if ((w.slice(0,3)=="+91")&&(w.length==13)) {
+    console.log("indian number");
+}
+else{
+    console.log("not a number");
+}
+    </script>
+</body>
+</html>
